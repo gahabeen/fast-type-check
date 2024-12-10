@@ -19,6 +19,7 @@
     "node": ">=8.11.0"
   },
   "scripts": {
+    "compile": "tsc",
     "lint": "eslint ./lib/**/*.js ./app/**/*.js",
     "test": "jest --coverage",
     "test:simple": "jest",
@@ -31,6 +32,7 @@
     "fast-type-check": "./bin/fast-type-check"
   },
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "eslint": "^8.11.0",
@@ -42,7 +44,6 @@
     "jsdoc-to-markdown": "^5.0.3"
   },
   "keywords": [],
-  "dependencies": {},
   "jest": {
     "verbose": true,
     "globals": {

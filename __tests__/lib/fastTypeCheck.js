@@ -1,5 +1,5 @@
 
-const tc = require('../../lib/fastTypeCheck');
+const tc = require('../../lib/fastTypeCheck.js').default;
 
 describe('fastTypeCheckLib', () => {
     describe('Method tests', () => {

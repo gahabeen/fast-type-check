@@ -1,5 +1,5 @@
 
-const app = require('../../app/');
+const app = require('../../app/').default;
 
 describe('fastTypeCheck', () => {
     describe('Method tests', () => {
